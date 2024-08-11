@@ -1,0 +1,89 @@
+#hero .container{
+    position: relative;
+    top: 200px; 
+    height: 200px;
+}
+
+
+#hero .row p{
+    color: white;
+    background-color: #355494;
+    width: auto;
+    padding: 1px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-shadow: 3px 3px 8px black;
+}
+
+#hero .row h1{
+    color: white;
+    font-size: 98px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-left: -15px;
+    text-shadow: 4px 4px 8px black;
+}
+#hero .row h3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+#hero .row .buttons{
+    
+    margin-top: 10px;
+    width: 600px;
+}
+
+#hero .row .button1{
+    background-color: #355591;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    font-size: 28px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 48px;
+}
+
+#hero .row .button2{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 2px white ;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 32px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 48px;
+}
+@media (max-width: 576px){
+    #hero .row h1{
+        font-size: 72px;
+    }
+    #hero .row h3{
+        font-size: 24px;
+    }
+
+    #hero .row .buttons{
+        width: 450px;
+        
+    }
+    #hero .row .button1{
+        width: 515px;
+        text-align: start;
+        margin: 0 !important;
+    }
+    #hero .row .button2{
+        width: 515px;
+        text-align: start;
+        margin: 0 !important;
+    }
+
+    
+}
+    

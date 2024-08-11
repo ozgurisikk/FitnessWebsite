@@ -1,0 +1,23 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+hr{
+    position: relative;
+    margin: 0 auto 50px auto;
+    top: 20px;
+    border-radius: 5px;
+    height: 12px;
+    background: rgb(255, 165, 0) !important;
+    opacity: 1;
+    width: 6%;
+    border: none;
+}
+
+@media (max-width: 576px){
+    hr{
+        width: 30%;
+    }
+}
+
+

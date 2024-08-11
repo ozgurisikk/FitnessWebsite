@@ -1,0 +1,67 @@
+#contact{
+    
+    padding: 80px;
+}
+
+#contact h1 {
+    color: #3F599E;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+#contact .desc p {
+    font-weight: bold;
+    color: #4B4B4B;
+    margin: 20px 300px;
+}
+
+#contact .row h4{
+    font-weight: 700;
+    color: #4E4E4E;
+}
+
+#contact .row p{
+    color: #4E4E4E;
+    font-weight: 700;
+}
+
+#contact .row h3{
+    color: #4E4E4E;
+    font-weight: 700;
+}
+
+#contact input{
+    height: 50px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    background-color: #F1F8FF;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+#contact input::placeholder{
+    font-weight: 600;
+}
+
+#contact textarea{
+    margin: 3px 3px;
+    height: 140px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #F1F8FF;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact textarea::placeholder{
+    font-weight: 600;
+}
+
+@media (max-width: 576px){
+    #contact .desc p {
+        margin: 20px 1px;
+    }
+
+    
+}

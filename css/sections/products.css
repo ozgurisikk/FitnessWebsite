@@ -1,0 +1,72 @@
+
+#products h1 {
+    color: #3F599E;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+#products .desc p {
+    font-weight: bold;
+    color: #4B4B4B;
+    margin: 20px 300px;
+    margin-bottom: 40px;
+}
+
+#products img{
+    border-radius: 10px;
+}
+
+#products .card{
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgb(199, 199, 199), 5px 5px 10px rgb(199, 199, 199);
+}
+
+#products h5{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#products .card p{
+ font-weight: 700;
+}
+
+#products i{
+    font-size: 30px;
+    width: 40px;
+}
+
+#products a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: -35px;
+}
+
+#products a:hover{
+    color: #F49B10;
+    transition: all 300ms;
+    background-color: #3F599E;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+#products i{
+    cursor: pointer;
+}
+
+#products i:hover{
+    background-color: #F49B10;
+    border-radius: 50%;
+    transition: all 300ms;
+}
+
+@media (max-width: 576px){
+    #products .desc p {
+        margin: 20px 100px;
+    }
+
+    #products .row .col-lg-3{
+        margin-top: 50px;
+    }
+    
+}

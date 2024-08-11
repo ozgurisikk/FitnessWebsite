@@ -1,0 +1,34 @@
+#header {
+    margin-top: -5px;
+}
+#header a{
+    color: white;
+    font-weight: 700;
+}
+
+.hero-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    
+}
+.navbar-nav .orange{
+    background-color: #F39A18;
+    color: white;
+    font-size: 18px;
+    font-weight:700;
+    border-radius: 10px;
+    
+    
+}
+#header.header-scrolled{
+    border-bottom: 1px solid var(--border-bottom-2);
+    background-color: rgba(53, 85, 146);
+}
+
+@media (max-width: 576px){
+    #header .content-nav{
+        margin-left: 0 !important;
+    }
+}

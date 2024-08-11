@@ -1,0 +1,110 @@
+#classes{
+     background: linear-gradient(75deg, white 45%, #F6F6F6 30%);
+     padding-bottom: 100px ;
+     padding-top: 80px;
+}
+
+#classes h1{
+     color: #3F599E;
+     font-weight: 700;
+     font-size: 42px;
+     margin-top: 40px;
+}
+
+
+#classes .desc p{
+     font-weight: bold;
+     color: #4B4B4B;
+     margin: 20px 250px;
+}
+
+#classes h3{
+     position: relative;
+     color: white;
+     height: 2.5em;
+     padding: 0 24px;
+     background-color: #355591;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 600;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+
+#classes h3:hover{
+     color: white;
+     height: 2.5em;
+     padding: 0 24px;
+     background-color: #F49B10;
+     transition: 300ms;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 600;
+     border-radius: 5px;
+}
+
+#classes .h3-active {
+     background-color: #F49B10;
+ }
+
+
+
+#classes h2{
+     color: #525252;
+     font-weight: 700;
+     font-size: 36px;
+     margin-top: 80px;
+}
+
+#classes p{
+     color: #4B4B4B;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 1.8;
+
+}
+
+#classes img{
+     margin: 80px 90px 80px 48px;
+     max-width: 600px;
+     max-height: 500px;
+     object-fit: cover;
+     transition: 300ms;
+}
+
+
+#classes h3 i{
+     position: absolute;
+     display: none;
+     width: 50px;
+     height: 50px;
+     top: 50px;
+     color: #F49B10;
+     
+}
+.icon-dropdown{
+     display: block !important;
+}
+
+@media (max-width: 576px){
+     #classes .desc p{
+          font-size: 16px;
+          margin: 20px 90px;
+     }
+
+     #classes .row .class-buttons{
+          width: 50%;
+         
+     }
+     #classes .row .class-buttons h3{
+         margin: 20px 20px;
+         padding: 30px 50px;
+     }
+
+    
+     #classes .row img{
+          margin: 0 !important;
+          max-width: 500px;
+     }
+}

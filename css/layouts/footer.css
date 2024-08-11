@@ -1,0 +1,33 @@
+#footer{
+    background-color: #355591;
+}
+
+#footer h6{
+    color: white;
+    font-weight: 400;
+}
+
+#footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#footer a:hover{
+    color: orange;
+    transition: all 300ms;
+    
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 576px){
+    
+}
