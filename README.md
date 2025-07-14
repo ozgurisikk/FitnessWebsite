@@ -1,7 +1,7 @@
 # Sports Service Company Website
 
 # LIVE LINK:
-https://66b88f24cc77732b1fd9bc5b--powerfulco.netlify.app/
+https://amazing-sunshine-07ca90.netlify.app/
 
 ## Project Overview
 
